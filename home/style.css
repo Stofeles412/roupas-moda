@@ -1,0 +1,40 @@
+*{ padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    margin-bottom: 30%;
+    background-color: aqua;
+}
+#itens .ul-li{
+    margin: 150px;
+    display: inline;
+    
+}
+main{
+    display: flex;
+    background-color: rgb(239, 239, 236);
+}
+div{
+    width: 30%;
+    margin: 20px;
+    height: 400px;
+    background-color: rgb(213, 187, 37);
+}
+.card-1{
+  grid-template-columns: ;
+    width: 30%;
+    height: 400px;
+    background-color: rgb(238, 203, 2);
+}
+.card-2{
+   
+    width: 30%;
+    height: 400px;
+    background-color: rgb(40, 37, 17);
+}
+.card-3{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(250, 213, 0);
+}
