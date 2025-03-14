@@ -1,10 +1,11 @@
 *{ padding: 0;
     margin: 0;
 }
-header{
+#menu-nav{
     display: flex;
+    padding: 30px;
     margin-bottom: 30%;
-    background-color: aqua;
+    background-color: rgb(255, 230, 0);
 }
 #itens .ul-li{
     margin: 150px;
