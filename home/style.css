@@ -20,22 +20,23 @@ div{
     width: 30%;
     margin: 20px;
     height: 400px;
-    background-color: rgb(213, 187, 37);
+    background-image: url(./imagens/pexels-frendsmans-1926769.jpg);
+    background-size: cover;
+    
 }
 .card-1{
   grid-template-columns: ;
     width: 30%;
     height: 400px;
-    background-color: rgb(238, 203, 2);
+    
 }
 .card-2{
-   
     width: 30%;
     height: 400px;
-    background-color: rgb(40, 37, 17);
+   
 }
 .card-3{
     width: 30%;
     height: 400px;
-    background-color: rgb(250, 213, 0);
+    
 }
