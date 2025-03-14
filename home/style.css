@@ -7,7 +7,7 @@
     height: 900px;
     margin-bottom: 30%;
     background-color: rgb(255, 230, 0);
-    background-image: url(./imagens/istockphoto-1256257042-1024x1024\ capa\ outono.jpg);
+    background-image: url(./imagens/freestocks-_3Q3tsJ01nc-unsplash.jpg);
     background-size: cover;
 }
 #itens .ul-li{
@@ -18,8 +18,10 @@
 }
 #itens, a{
     text-decoration: none;
-    color: rgb(240, 170, 40);
+    color: rgb(118, 85, 2);
     font-size: 1.3em;
+    font-weight: 400;
+    
 }
 main{
     display: flex;
