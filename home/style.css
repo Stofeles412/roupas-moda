@@ -4,13 +4,22 @@
 #menu-nav{
     display: flex;
     padding: 30px;
+    height: 900px;
     margin-bottom: 30%;
     background-color: rgb(255, 230, 0);
+    background-image: url(./imagens/istockphoto-1256257042-1024x1024\ capa\ outono.jpg);
+    background-size: cover;
 }
 #itens .ul-li{
     margin: 150px;
     display: inline;
+   
     
+}
+#itens, a{
+    text-decoration: none;
+    color: rgb(240, 170, 40);
+    font-size: 1.3em;
 }
 main{
     display: flex;
@@ -19,13 +28,15 @@ main{
 div{
     width: 30%;
     margin: 20px;
-    height: 400px;
+    height: 500px;
     background-image: url(./imagens/pexels-frendsmans-1926769.jpg);
     background-size: cover;
+    padding: 40px;
+    color: black;
+    font-weight: bold;
     
 }
 .card-1{
-  grid-template-columns: ;
     width: 30%;
     height: 400px;
     
