@@ -41,15 +41,18 @@ div{
 .card-1{
     width: 30%;
     height: 400px;
-    
+    background-image: url(./imagens/pexels-frendsmans-1926769.jpg);
 }
 .card-2{
     width: 30%;
     height: 400px;
+    background-image: url(imagens/istockphoto-1357323248-1024x1024\ inverno.jpg);
    
 }
 .card-3{
     width: 30%;
     height: 400px;
+    background-image: url(imagens/istockphoto-1256257042-1024x1024\ capa\ outono.jpg);
+    background-size: cover;
     
 }
