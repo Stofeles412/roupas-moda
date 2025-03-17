@@ -36,6 +36,7 @@ div{
     padding: 40px;
     color: black;
     font-weight: bold;
+    background-position: center center;
     
 }
 .card-1{
@@ -52,7 +53,7 @@ div{
 .card-3{
     width: 30%;
     height: 400px;
-    background-image: url(imagens/istockphoto-1256257042-1024x1024\ capa\ outono.jpg);
-    background-size: cover;
+    background-image: url(imagens/pexels-photo-983564.jpeg);
+    
     
 }
