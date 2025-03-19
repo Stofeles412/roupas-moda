@@ -9,6 +9,7 @@
     background-color: rgb(255, 230, 0);
     background-image: url(./imagens/freestocks-_3Q3tsJ01nc-unsplash.jpg);
     background-size: cover;
+   
   
 
 }
@@ -16,6 +17,13 @@ menu{
  border-bottom: solid 2px rgb(211, 166, 3);
  height: 70px;
 }
+#itens{
+    opacity: 0;
+}
+#itens.show{
+    opacity: 1;
+}
+
 #itens .ul-li{
     margin: 140px;
     display: inline;
