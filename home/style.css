@@ -21,7 +21,7 @@ menu{
     background-color: rgba(255, 255, 255, 0.302);
     height: 300px;
     opacity: 0;
-   transform: translate(-100%);
+   transform: translate(-150%);
    transition: .8s;
 }
 #menu-ul.show{
@@ -30,9 +30,16 @@ menu{
     transform: translate(0%);
 }
 .botao{
-    background-color: rgba(0, 0, 255, 0.309);
+    background-color: rgba(0, 0, 255, 0);
+    cursor: pointer;
     height: 50px;
     width: 30px;
+    border-radius: 100%;
+    border: 0px;
+    font-weight: bold;
+}
+#botao.esconder{
+    display: none;
 }
 #itens .ul-li{
     margin: 140px;
