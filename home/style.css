@@ -17,13 +17,23 @@ menu{
  border-bottom: solid 2px rgb(211, 166, 3);
  height: 70px;
 }
-#itens{
+#menu-ul{
+    background-color: rgba(255, 255, 255, 0.302);
+    height: 300px;
     opacity: 0;
+   transform: translate(-100%);
+   transition: .8s;
 }
-#itens.show{
+#menu-ul.show{
     opacity: 1;
+    transition: .8s;
+    transform: translate(0%);
 }
-
+.botao{
+    background-color: rgba(0, 0, 255, 0.309);
+    height: 50px;
+    width: 30px;
+}
 #itens .ul-li{
     margin: 140px;
     display: inline;
