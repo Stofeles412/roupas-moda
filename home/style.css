@@ -39,15 +39,14 @@ menu{
     transition: .8s;
     transform: translate(0%);
 }
-.botao{
-    background-color: rgba(0, 0, 255, 0);
-    cursor: pointer;
-    height: 50px;
-    width: 30px;
-    border-radius: 100%;
+article,.icones{
     border: 0px;
-    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+    width: 40px;
+
 }
+
 #botao.esconder{
     display: none;
 }
