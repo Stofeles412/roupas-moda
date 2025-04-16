@@ -129,6 +129,13 @@ border-top: solid 3px rgb(237, 207, 12);
     transform: translateY(0%);
     transition: .5s;
 }
+.botao, img{
+    background-color: transparent;
+    border: 0px;
+}
+.seçao{
+    background-color: black;
+}
 @media screen and (max-width: 1000px){
     *{ padding: 0;
         margin: 0;
