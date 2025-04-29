@@ -3,6 +3,7 @@
 }
 #menu-nav{
     display: flex;
+    line-height: 50px;
     padding: 30px;
     height: 900px;
     margin-bottom: 2%;
@@ -24,6 +25,7 @@ menu{
     opacity: 0;
    transform: translate(-150%);
    transition: .8s;
+   list-style-type: none;
   
 }
 .art-h1{
@@ -52,10 +54,9 @@ article,.icones{
     display: none;
 }
 #itens .ul-li{
-    margin: 140px;
+    margin: 110px;
     display: inline;
-   
-   
+  
     
 }
 #itens, a{
@@ -134,7 +135,14 @@ border-top: solid 3px rgb(237, 207, 12);
     border: 0px;
 }
 .seçao{
-    background-color: black;
+    width: 100%;
+    display: grid;
+    background-color: rgb(99, 43, 43);
+}
+.card-seçao{
+   grid-template-columns: repeat(1fr, 4);
+   
+    width: 100%;
 }
 @media screen and (max-width: 1000px){
     *{ padding: 0;
