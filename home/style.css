@@ -141,9 +141,25 @@ border-top: solid 3px rgb(237, 207, 12);
 }
 .card-seçao{
    grid-template-columns: repeat(1fr, 4);
+   padding: 80px;
    position: relative;
    left: 50%;
     width: 100%;
+}
+.seção-txt{
+    grid-template-columns: repeat(1fr, 4);
+    width: 30%;
+    display: grid;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    
+   
+}
+.seção-txt-2{
+    width: 30%;
+    position: absolute;
+    right: 10%;
 }
 @media screen and (max-width: 1000px){
     *{ padding: 0;
