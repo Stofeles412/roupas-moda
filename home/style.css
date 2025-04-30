@@ -136,8 +136,9 @@ border-top: solid 3px rgb(237, 207, 12);
 }
 .seçao{
     width: 100%;
+    margin-top: 30%;
     display: grid;
-    background-color: rgb(99, 43, 43);
+    background-color: rgb(39, 86, 113);
 }
 .card-seçao{
    grid-template-columns: repeat(1fr, 4);
@@ -145,6 +146,11 @@ border-top: solid 3px rgb(237, 207, 12);
    position: relative;
    left: 50%;
     width: 100%;
+}
+.card-seçao.card-seçao-2,h2{
+color: rgb(255, 238, 0);
+font-size: 3em;
+margin-bottom: 10%;
 }
 .seção-txt{
     grid-template-columns: repeat(1fr, 4);
@@ -158,13 +164,14 @@ border-top: solid 3px rgb(237, 207, 12);
 }
 .card-seçao-2{
     position: relative;
+    left: 10%;
     width: 100%;
 }
 .seção-txt-2{
     width: 30%;
     position: absolute;
     top: 50%;
-    right: 10%;
+    right: 25%;
 }
 @media screen and (max-width: 1000px){
     *{ padding: 0;
