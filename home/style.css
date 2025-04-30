@@ -138,7 +138,7 @@ border-top: solid 3px rgb(237, 207, 12);
     width: 100%;
     margin-top: 30%;
     display: grid;
-    background-color: rgb(39, 86, 113);
+    background-color: rgb(11, 36, 50);
 }
 .card-seçao{
    grid-template-columns: repeat(1fr, 4);
@@ -152,6 +152,7 @@ color: rgb(255, 238, 0);
 font-size: 3em;
 margin-bottom: 10%;
 }
+
 .seção-txt{
     grid-template-columns: repeat(1fr, 4);
     width: 30%;
@@ -159,6 +160,7 @@ margin-bottom: 10%;
     position: absolute;
     top: 50%;
     right: 100%;
+    color: white;
     
 
 }
@@ -172,6 +174,12 @@ margin-bottom: 10%;
     position: absolute;
     top: 50%;
     right: 25%;
+    color: white;
+}
+.seçao-img{
+    border-top: solid 2px rgb(234, 234, 21);
+    width: 30%;
+    border-radius: 10px;
 }
 @media screen and (max-width: 1000px){
     *{ padding: 0;
