@@ -154,11 +154,16 @@ border-top: solid 3px rgb(237, 207, 12);
     top: 50%;
     right: 100%;
     
-   
+
+}
+.card-seçao-2{
+    position: relative;
+    width: 100%;
 }
 .seção-txt-2{
     width: 30%;
     position: absolute;
+    top: 50%;
     right: 10%;
 }
 @media screen and (max-width: 1000px){
