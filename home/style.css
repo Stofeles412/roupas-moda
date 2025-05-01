@@ -181,6 +181,18 @@ margin-bottom: 10%;
     width: 30%;
     border-radius: 10px;
 }
+#roda-pe{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(71, 61, 61);
+}
+.seçao-foot,.seçao-foot-2,.seçao-foot-3{
+  width: 25%;
+}
+
+
 @media screen and (max-width: 1000px){
     *{ padding: 0;
         margin: 0;
