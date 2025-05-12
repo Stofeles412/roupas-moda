@@ -185,15 +185,12 @@ margin-bottom: 10%;
     position: absolute;
     top: 50%;
     right: 25%;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .seçao-img{
     border-top: solid 2px rgb(234, 234, 21);
     width: 30%;
     border-radius: 10px;
-}
-.seçao-p{
-    color: black;
 }
 #roda-pe{
     font-size: 0.8em;
