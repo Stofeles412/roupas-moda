@@ -25,7 +25,7 @@ menu{
  height: 30px;
 }
 #menu-ul{
-    background-color: rgba(2, 1, 1, 0.424);
+    background-color: rgba(2, 1, 1, 0.227);
    width: 30%;
     height: 500px;
     line-height: 60px;
@@ -40,7 +40,7 @@ menu{
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.69);
     left: 25%;
     bottom: 50%;
-    color: rgb(129, 97, 8);
+    color: #ffffff;
     font-size: 2em;
     width: 100%;
    text-align: center;
@@ -78,11 +78,11 @@ article,.icones{
     
 }
 body{
-    background-color: rgb(255, 255, 255);
+   background-color: #cfcccc;
 }
 main{
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: #cfcccc;
 }
 div{
     width: 40%;
@@ -96,7 +96,7 @@ div{
     color: rgb(127, 2, 2);
     font-weight: bold;
     background-position: center center;
-    border: solid 2px rgb(218, 100, 3);
+    border: solid 2px #995f26;
     transition: .5s;
     
 }
@@ -125,8 +125,8 @@ div:hover{
     
 }
 .seçao-texto{
- background-color: rgba(0, 0, 0, 0.65);
-color: rgb(255, 217, 0);
+ background-color: rgba(0, 0, 0, 0.589);
+color:#d39157;
 padding: 20px;
 margin-top: 380px;
 opacity: 0;
@@ -148,7 +148,7 @@ border-top: solid 3px rgb(237, 207, 12);
     padding-bottom: 100px;
     margin-top: 30%;
     display: grid;
-    background-color: rgb(255, 255, 255);
+    background-color: #3f2b16;
   
 }
 .card-seçao{
@@ -159,7 +159,7 @@ border-top: solid 3px rgb(237, 207, 12);
     width: 100%;
 }
 .card-seçao.card-seçao-2,h2{
-color: rgb(225, 218, 20);
+ color: #854e16;
 font-size: 3em;
 margin-bottom: 10%;
 }
@@ -187,8 +187,11 @@ margin-bottom: 10%;
     right: 25%;
     color: rgb(255, 255, 255);
 }
+.seçao-p{
+    color: rgb(214, 214, 214);
+}
 .seçao-img{
-    border-top: solid 2px rgb(234, 234, 21);
+    border-top: solid 2px #4a2c0f;
     width: 30%;
     border-radius: 10px;
 }
@@ -199,16 +202,16 @@ margin-bottom: 10%;
     justify-content: space-between;
     height: 250px;
     width: 100%;
-    background-color: rgb(16, 15, 15);
-    color: rgb(255, 255, 255);
+    background-color: #271808;
+    color: rgb(237, 237, 237);
     
 }
 .seçao-foot,.seçao-foot-2,.seçao-foot-3{
   width: 25%;
 }
  h3{
-    background-color: rgb(8, 8, 8);
-    color: rgb(220, 191, 6);
+    background-color: rgb(52, 38, 12);
+     color: rgb(237, 237, 237);
     text-align: center;
 }
 
